@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(162, 194, 203);
+        }
+        header {
+            background-color: #33333300;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: hsl(0, 0%, 100%);
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: rgb(159, 211, 211);
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #438fbb;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: cursive ;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Dynamic and driven 3rd year E&TC Engineering student. Adept with Arduino,ESP microcontrollers, Electronic Circuits, PCB Design and a bit proficient in Python Programming. Possessing a blend of technical proficiency, project and event management qualities.</p>
+    </section>
+    <img src="me.jpg" height="250px" width="210px">
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my recent projects:</p>
+        <ul>
+            <li>Mobile Controlled (Bluetooth) Bot : I made a bot which can be controlled using our mobile via Bluetooth connection.</li>
+            <li>Portable Fire Alarm System for Small Industries: Developed a wireless fire safety system using NRF transceivers. Multiple sensor-equipped transmitters detect fire or smoke and instantly send signals to a central receiver. The receiver triggers an alarm and displays the specific location on an LCD screen, ensuring quick identification and response in emergencies. Ideal for flexible placement in factories and warehouses.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at <a href="mailto:walkeanish@gmail.com">walkeanish@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>© Anish Walke</p>
+    </footer>
+</body>
+</html>
